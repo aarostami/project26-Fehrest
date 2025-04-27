@@ -220,7 +220,8 @@ export default function Home() {
 				{/* <Drawer anchor="right" variant="permanent" open={open} sx={{ width: open == true ? '15rem' : '6rem', '& .MuiDrawer-paper': { width: open == true ? '15rem' : '6rem', p: '0.5rem' } }} onMouseOver={() => setOpen(true)} onMouseOut={() => setOpen(false)}> */}
 				<Drawer anchor="right" variant="permanent" open={open} sx={{ width: (open != false) ? '17rem' : '5.5rem',transition: '0.5s all', '& .MuiDrawer-paper': { width: open != false ? '17rem' : '5.5rem', transition: '0.5s all',zIndex: '99' }, '*::-webkit-scrollbar': {width: '8px'}, '*::-webkit-scrollbar-track': {backgroundColor: '#efefef'}, '*::-webkit-scrollbar-thumb': {backgroundColor: '#dadada', borderRadius: '6px'}  }} onMouseOver={() => setOpen(true)} onMouseOut={() => setOpen(false)}>
 					{/* <img src="/images/logo.png" style={{ width: '50px', height: '50px', marginRight: '16px' }} /> */}
-					<img src={logo.src} style={{ width: '50px', height: '50px', marginRight: '16px' }} />
+					{/* <img src={logo.src} style={{ width: '50px', height: '50px', marginRight: '16px' }} /> */}
+					<Image src={logo.src} alt="img" style={{ width: '50px', height: '50px', marginRight: '16px' }} />
 					{/* <MenuList sx={{ display: open == true ? 'none' : 'block' }}> */}
 					{/* <MenuList sx={{ display: open == true ? 'none' : 'block' }}>
 					<Stack spacing={1}>
