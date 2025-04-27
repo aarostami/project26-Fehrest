@@ -14,6 +14,7 @@ import TabdilUserBox from './Panel/TabdilUserBox'
 import ViewBox from './Panel/ViewBox' */
 /* agar in error ro dashtim bayad 'dynamic import' estefade konim.
 // hamin toori ba error kar mikone, ama dar github actions error dare va build nemikone.
+// in error baraye 'apext chart' hast.
 // chon client object window dare, na server va ssr
 ⨯ ReferenceError: window is not defined
     at __webpack_require__ (C:\Users\Alireza\Documents\MEGAsync\Projects\در حال کار\front-end\Nextjs\project26-fehrest-mui-ts-(inworking)\.next\server\webpack-runtime.js:33:42)
@@ -46,7 +47,6 @@ const StatisBox = dynamic(() => import("./Panel/StatisBox"), { ssr: false })
 const TabdilBox = dynamic(() => import("./Panel/TabdilBox"), { ssr: false })
 const TabdilUserBox = dynamic(() => import("./Panel/TabdilUserBox"), { ssr: false })
 const ViewBox = dynamic(() => import("./Panel/ViewBox"), { ssr: false })
-
 
 const Main = () => {
 

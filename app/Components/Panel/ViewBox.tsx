@@ -45,7 +45,6 @@ const ViewBox = () => {
 		legend: {
 			position: 'bottom'
 		},
-		
 	}
 
 	return <Box sx={{ border: '1px solid #d4d8dd', borderRadius: '4px', height: '100%' }}>

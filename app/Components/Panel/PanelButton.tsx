@@ -1,4 +1,4 @@
-import { Box, Button, Collapse, Link, List, ListItem, ListItemButton, ListItemIcon, ListItemText, MenuItem, Stack, Typography } from "@mui/material"
+import { Box, Button, Collapse, Link, List, ListItem, ListItemButton, ListItemIcon, ListItemText, MenuItem } from "@mui/material"
 import { BxChevronDown, BxChevronLeft, BxChevronUp, BxHomeCircle } from "./Icons/icons"
 import { useState } from "react"
 
@@ -10,8 +10,7 @@ const PanelButton = (props: any) => {
 		<ListItemText>{data.text}</ListItemText>
 		<BxChevronLeft style={{ fontSize: '1.5rem' }} />
 	</MenuItem>
-	)}
-	</>
+	)}</>
 }
 
 const PanelButtonIcon = (props: any) => {
@@ -19,8 +18,7 @@ const PanelButtonIcon = (props: any) => {
 		<Button key={index} sx={{ color: data.active == true ? '' : '#677788', backgroundColor: data.active == true ? '#e5edfc' : '', py: '0.5rem' }}>
 			{data.icon}
 		</Button>
-	)}
-	</>
+	)}</>
 }
 
 const PanelButtonList = (props: any) => {
@@ -46,8 +44,7 @@ const PanelButtonList = (props: any) => {
 			</Collapse> : ''}
 		</List>
 	</ListItem>
-	)}
-	</>
+	)}</>
 }
 
 export { PanelButton, PanelButtonIcon, PanelButtonList }

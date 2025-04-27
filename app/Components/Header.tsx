@@ -1,18 +1,11 @@
 'use client'
-import Container from '@mui/material/Container'
 import Grid2 from '@mui/material/Grid2'
-import { Typography, backdropClasses } from '@mui/material'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
+import { styled, Typography, backdropClasses, Container, Badge, Avatar, Button, Menu, MenuItem } from '@mui/material'
 import { Icon } from '@iconify-icon/react'	//kar nemikone
 import { BxBell, BxGridAlt, BxMoon, EmojioneFlagForIran, BxCalendar, BxCheckShield, BxCog, BxFoodMenu, BxHelpCircle, BxPieChartAlt2, BxPlusCircle, BxUser, BxWindowOpen, EmojioneFlagForFrance, EmojioneFlagForGermany, EmojioneFlagForPortugal, EmojioneFlagForUsOutlyingIslands, BxCreditCard, BxDollar, BxEnvelopeOpen, BxPowerOff, BxSupport } from './Panel/Icons/icons'
 import BxSearchAlt from './Panel/Icons/icons'
-import Badge from '@mui/material/Badge'
-import Avatar from '@mui/material/Avatar'
-import { styled } from '@mui/material/styles'
-import Menu from '@mui/material/Menu'
-import MenuItem from '@mui/material/MenuItem'
 import React from 'react'
-import Button from '@mui/material/Button'
 import prof from '../images/1.png'
 
 const Header = () => {
